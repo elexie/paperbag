@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+  #bodyWrapper
+    #navBox
+      #navBoxWrapper
+        #topNav
+          ul
+            li USD+
+            li LogoText
+            li 
+              img(src="../images/logo.png", alt="")
+            li LogoText
+              
+            //- each val in ["USD+", "LogoText", "Logo","LogoText","Cart"]
+            //-   li=val
+        #bottomNav
+          ul
+            each val in ["Charities", "Gift History", "Recharge","Upload","Login"]
+              li=val
+    block content

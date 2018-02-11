@@ -1,0 +1,121 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Paperbag
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    script(src='js/index.js')
+  body
+    #bodyOverlay
+    #modal
+      #modalWrapper
+        #modalImgDiv
+          img#modalImage(src='', alt='')
+        #modalDesc
+    #bodyWraper
+      header
+        #topLeftMenu
+          #nameDiv
+            p#initial
+              | P
+            p.initial2(id='')
+              | b
+          #headerText
+            p
+              span(style='text-transform:lowercase') the heart that gives
+              |  gathers
+        #topRightMenu
+          #topRightMenuWrapper
+            ul#topRightUl
+              li About
+              li Gifts History
+              li
+                input(type='text', placeholder='Search...')
+              li bag
+              li login
+              // <li><img src="icons/bag.png" alt=""></li>
+          // topRightMenuWrapper
+      main
+        #beforeImagesWrapper
+        // adds space between the header and the page
+        #imagesWrapper
+          .row.one
+            #imageBoxOne.imageBox.one
+              // <img id="imageOne" src="images/bosnia.jpg" alt="" >
+              #imgOverlay.imageBoxOverlay
+                .overlayWrapper
+                  p Crayola
+            .imageBox.two
+              // <img src="../images/cow.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  p Cinnamon Toast Crunch
+            .imageBox.three
+              // <img src="../images/dinkaMan.jpeg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  | Irish Spring
+            .imageBox.four
+              // <img src="../images/goldMine.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  | Toaster
+            .imageBox.five
+              // <img src="../images/himbaWoman.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper 1 Gallon Whole Milk
+          // end of row one
+          .row.two
+            .imageBox.six
+              // <img src="../images/koremCamp.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  p Colgate ToothPaste
+            .imageBox.seven
+              // <img src="../images/penguinsDive.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper Rael Pads
+            .imageBox.eight
+              // <img src="../images/zebrasDrink.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper 1 carton of eggs
+            .imageBox.nine
+              // <img src="../images/genesis.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper Garnier Shampoo
+            .imageBox.ten
+              // <img src="../images/penguinsDive.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  | Hunt's tomato Sauce
+          // end of row two
+          .row.three
+            .imageBox.eleven
+              // <img src="../images/mexico1980.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  | 9v Duracel
+            .imageBox.twelve
+              // <img src="../images/mexico1980Dog.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  | Oranges
+            .imageBox.thirteen
+              // <img src="../images/dinkaChild.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  | Children's Book
+            .imageBox.fourteen
+              // <img src="../images/beautifulChild.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper Pamper's
+            .imageBox.fifteen
+              // <img src="../images/childWelfare.jpg" alt="">
+              .imageBoxOverlay
+                .overlayWrapper
+                  | 3 small notebooks
+          // end of row three
+        // end of imagesWrapper
+      footer
+        p Elexie Munyeneh copy2018
